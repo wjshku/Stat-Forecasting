@@ -107,10 +107,11 @@
 #How to use this model
 #Step1: Choose beta(Note: 1/beta is the expected breakthroughs in one year needed for )
 beta <- 5
-n_breaks <- 10
+n_breaks <- 5
+startdate <- 1930
 
 #Step2: Choose breakthroughs(Note: this should be those in your "10 milestones" list)
-Breakthroughs <- c(1970,1980,1989,1997,2010,2016,2018,2022)
+Breakthroughs <- c(1940,1961,2016,2022)
 
 #Step3: Adjust beta(Note: Elambda is the numbers of breakthroughs your model predicts in next year,
 #See if it fits your intuition)
